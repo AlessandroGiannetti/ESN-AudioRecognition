@@ -9,11 +9,13 @@ def extractFiles(dir):
         #print(elem)
         sublist = []
         for directory in os.listdir('Utah Audio Data/'+ elem):
-            sublist.append(directory)
-            #print(sublist)
-        if elem == '[New] Concrete Mixer 3':
-            sublist.remove('.DS_Store')
+            if directory != ".DS_Store":
+                sublist.append(directory)
+                #print(sublist)
+        #if elem == '[New] Concrete Mixer 3':
+            #sublist.remove('.DS_Store')
         d[elem] = sublist
+    print(d)
 
 # see how to do recursive directories scan
 
