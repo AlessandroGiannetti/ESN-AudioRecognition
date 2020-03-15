@@ -3,6 +3,8 @@ from scipy.io import wavfile
 import matplotlib.pyplot as plt
 import librosa
 import librosa.display
+import sys
+import os
 
 plt.ioff()
 
@@ -122,13 +124,13 @@ class Spectrum:
             out_name = out_path+file_name
 
         spec = Spectrum.compute_specgram_and_delta(path, sample_rate, nfft, hop_len, n_mel_bands)
-        log_spec = spec[:, :, 0]
+        #log_spec = spec[:, :, 0]
         delta_spec = spec[:, :, 1]
 
-        if which != 'delta':
-            librosa.display.specshow(log_spec)
-            out_path = out_name + '.' + fmt
-            plt.savefig(out_path, format=fmt, frameon='false', bbox_inches='tight', pad_inches=0)
+        #if which != 'delta':
+            #librosa.display.specshow(log_spec)
+            #out_path = out_name + '.' + fmt
+            #plt.savefig(out_path, format=fmt, frameon='false', bbox_inches='tight', pad_inches=0)
 
         if which != 'log':
             librosa.display.specshow(delta_spec)
@@ -141,13 +143,16 @@ class Spectrum:
 def main():
     # generate spectograms from segments
 
-    audio_path = '../segments/'
+    #folders = ["testing0","testing1","testing2","testing3","testing4","training0","training1","training2","training3","training4"]
 
-    all_segments = os.listdir(audio_path)
+
+    all_segments = ["testing0","testing1"]
     all_segments.sort()
+    tot_segments = len(all_segments)
+    n_directory = 0
     print(all_segments)
-
     for directory in all_segments:
+        print(str(n_directory)+"/"+str(tot_segments)+" - "+directory)
 
         audio_path = '../segments/' + directory
         img_path = '../segments-spectogram/' + directory
@@ -156,18 +161,33 @@ def main():
         all_category.sort()
         print(all_category)
 
+        n_directory += 1
+        tot_category = len(all_category)
+        n_category = 0
+
         for category in all_category:
+            print(str(n_category) + "/" + str(tot_category) + " - " + category)
 
             all_sub_category = os.listdir(audio_path + '/' + category)
             all_sub_category.sort()
             print(all_sub_category)
 
+            n_category += 1
+            tot_sub_category = len(all_sub_category)
+            n_sub_category = 0
+
+
             for sub_category in all_sub_category:
-                print(directory + '/' + category + '/' + sub_category)
+                print(str(n_sub_category) + "/" + str(tot_sub_category) + " - " + sub_category)
+                print("\n"+directory + '/' + category + '/' + sub_category)
                 all_tracks = os.listdir(audio_path + '/' + category + '/' + sub_category + '/')
 
+                n_sub_category += 1
+                tot_tracks = len(all_tracks)
+                n_track = 0
+
                 for track in all_tracks:
-                    sys.stdout.write('\r' + track)
+                    sys.stdout.write('\r'+str(n_track)+"/"+str(tot_tracks)+" - "+track)
                     sys.stdout.flush()
 
                     wav_path = audio_path + '/' + category + '/' + sub_category + '/' + track
@@ -177,6 +197,7 @@ def main():
 
                     #generation of spectrum based on delta
                     Spectrum.get_specgram_librosa(wav_path, track[:-4], spectogram_path)
+                    n_track += 1
 
 
 if __name__ == "__main__":
