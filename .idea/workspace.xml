@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05a0593d-d6d7-48ed-8c53-c9e471ece807" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ESN-AudioRecognition.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ESN-AudioRecognition.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectrum.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,7 +218,21 @@
       <option name="project" value="LOCAL" />
       <updated>1584289892841</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ESNTraining and packages">
+      <created>1589290803430</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589290803430</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ESNTraining and packages">
+      <created>1589290829596</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589290829596</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +240,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Spectrum generation with delta or for all channels in wav" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spectrum generation with delta or for all channels in wav" />
+    <MESSAGE value="ESNTraining and packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="ESNTraining and packages" />
   </component>
   <component name="WindowStateProjectService">
     <state x="679" y="139" key="#Spectrum" timestamp="1584304337472">
@@ -245,10 +257,11 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1170" y="275" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1584289705371" />
-    <state x="1065" y="123" key="CommitChangelistDialog2" timestamp="1584289891925">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="1136" y="130" key="CommitChangelistDialog2" timestamp="1589290829085">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="1065" y="123" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1584289891925" />
+    <state x="1136" y="130" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1589290829085" />
     <state x="788" y="295" key="FileChooserDialogImpl" timestamp="1589290196563">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
