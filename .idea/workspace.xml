@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05a0593d-d6d7-48ed-8c53-c9e471ece807" name="Default Changelist" comment="">
+    <list default="true" id="05a0593d-d6d7-48ed-8c53-c9e471ece807" name="Default Changelist" comment="ESNTraining and packages">
+      <change afterPath="$PROJECT_DIR$/src/Results.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ESNTraining.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ESNTraining.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PickleOpener.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/PickleOpener.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Spectrum.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Spectrum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Waver.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Waver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,33 +60,14 @@
       <recent name="C:\Users\Marco Ferraro\PycharmProjects\ESN-AudioRecognition" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.PickleOpener">
-    <configuration name="DataManipulation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.ESNTraining (1)">
+    <configuration name="ESNTraining (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ESN-AudioRecognition" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataManipulation.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ESNTraining (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ESN-AudioRecognition" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -122,6 +109,9 @@
       <module name="ESN-AudioRecognition" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -129,6 +119,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/PickleOpener.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Results" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ESN-AudioRecognition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Results.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,19 +194,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.DataManipulation" />
-      <item itemvalue="Python.Spectrum" />
-      <item itemvalue="Python.ESNTraining" />
       <item itemvalue="Python.ESNTraining (1)" />
+      <item itemvalue="Python.ESNTraining" />
       <item itemvalue="Python.PickleOpener" />
+      <item itemvalue="Python.Results" />
+      <item itemvalue="Python.Spectrum" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.PickleOpener" />
         <item itemvalue="Python.ESNTraining (1)" />
+        <item itemvalue="Python.PickleOpener" />
+        <item itemvalue="Python.Results" />
         <item itemvalue="Python.ESNTraining" />
         <item itemvalue="Python.Spectrum" />
-        <item itemvalue="Python.DataManipulation" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589290829596</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ESNTraining and packages">
+      <created>1589290964864</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589290964864</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,29 +276,70 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1170" y="275" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1584289705371" />
-    <state x="1136" y="130" key="CommitChangelistDialog2" timestamp="1589290829085">
+    <state x="546" y="309" key="#xdebugger.XInspectDialog" timestamp="1589566065432">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="546" y="309" key="#xdebugger.XInspectDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1589566065432" />
+    <state x="1136" y="130" key="CommitChangelistDialog2" timestamp="1589290974597">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="1065" y="123" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1584289891925" />
-    <state x="1136" y="130" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1589290829085" />
+    <state x="1136" y="130" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1589290974597" />
     <state x="788" y="295" key="FileChooserDialogImpl" timestamp="1589290196563">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="739" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1584304616085" />
     <state x="788" y="295" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1589290196563" />
+    <state width="2027" height="376" key="GridCell.Tab.0.bottom" timestamp="1589586131759">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2027" height="376" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1589586131759" />
+    <state width="2027" height="376" key="GridCell.Tab.0.center" timestamp="1589586131759">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2027" height="376" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1589586131759" />
+    <state width="2027" height="376" key="GridCell.Tab.0.left" timestamp="1589586131759">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2027" height="376" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1589586131759" />
+    <state width="2027" height="376" key="GridCell.Tab.0.right" timestamp="1589586131759">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2027" height="376" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1589586131759" />
+    <state width="2027" height="376" key="GridCell.Tab.1.bottom" timestamp="1589586131759">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2027" height="376" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1589586131759" />
+    <state width="2027" height="376" key="GridCell.Tab.1.center" timestamp="1589586131759">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2027" height="376" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1589586131759" />
+    <state width="2027" height="376" key="GridCell.Tab.1.left" timestamp="1589586131759">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2027" height="376" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1589586131759" />
+    <state width="2027" height="376" key="GridCell.Tab.1.right" timestamp="1589586131759">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2027" height="376" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1589586131759" />
     <state x="300" y="183" key="SettingsEditor" timestamp="1589290067259">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="281" y="173" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1584304671464" />
     <state x="300" y="183" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1589290067259" />
-    <state x="1032" y="261" key="Vcs.Push.Dialog.v2" timestamp="1584289894714">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="1032" y="261" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1584289894714" />
-    <state x="721" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1584582021676">
+    <state x="1101" y="276" key="Vcs.Push.Dialog.v2" timestamp="1589291072195">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="721" y="380" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1584582021676" />
+    <state x="1032" y="261" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1584289894714" />
+    <state x="1101" y="276" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1589291072195" />
+    <state width="1031" height="563" key="XDebugger.FullValuePopup" timestamp="1589630593390">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1031" height="563" key="XDebugger.FullValuePopup/0.0.2048.1112@0.0.2048.1112" timestamp="1589630593390" />
+    <state x="721" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1591633767968">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="721" y="380" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1591633767968" />
     <state x="1249" y="445" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584289860503">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

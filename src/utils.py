@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+"""This code is a modification of https://github.com/AndMastro/WreckingNet and was provided to us by the authors"""
 
 import os
 import pickle
@@ -208,6 +208,18 @@ def get_spectrosamples_and_labels(data, mode):
         Y.append(z)
         ind += 1
     return X, Y
+
+
+def get_labels(data):
+    """
+    :param data: data to unpack
+    :return: X: list of object labels
+    """
+    X = []
+    ind = 0
+    for x, y, z in data:
+        X.append(z)
+    return X
 
 
 def normalize_cf(cf):

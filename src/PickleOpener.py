@@ -101,22 +101,13 @@ if type == "spectro":
     print('\n', test_data[0])
     print('\n', "first pixel spectrogram: ")
     print('\n', test_data[0][0])
-    count2 = 0
-    for elem in p[0][1]:
-        count2 += 1
-    count3 = 0
-    for elem in p[0][0]:
-        count3 += 1
-    print("spectrogram elements: ", count2, '\n')
-    print("pixel number: ", count3)
 
     log_spec = test_data[0][:, :, 0]
     delta_spec = test_data[0][:, :, 1]
     print("log: ", '\n')
     print(log_spec)
-    print("delta: ", '\n')
-    print(delta_spec)
-    log_spec1 = test_data[1][:, :, 0]
+    # print("delta: ", '\n')
+    # print(delta_spec)
 
     count4 = 0
     for elem in delta_spec:
@@ -128,10 +119,7 @@ if type == "spectro":
     print("log elements: ", count5)
 
     plt.figure()
-    librosa.display.specshow(log_spec, y_axis='mel', x_axis='time')
-    plt.show()
-    plt.figure()
-    librosa.display.specshow(log_spec1, y_axis='mel', x_axis='time')
+    librosa.display.specshow(log_spec)
     plt.show()
 
 elif type == "signal":
@@ -149,6 +137,6 @@ print(len(p))
 Xtrain, Ytrain = get_spectrosamples_and_labels(p, 'delta')
 Xtrain2, Ytrain2 = get_spectrosamples_and_labels(p, 'log')
 Xtrain3, Ytrain3 = get_spectrosamples_and_labels(p, 'both')
-print('\n', Xtrain[0])
+#print('\n', Xtrain[0])
 print('\n', Xtrain2[0])
-print('\n', Xtrain3[0])
+# print('\n', Xtrain3[0])

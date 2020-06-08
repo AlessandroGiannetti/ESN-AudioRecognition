@@ -43,7 +43,7 @@ def mostprobableclass(arr, classcounter, classindex, segments):
 
 
 trainP = load("../../pickles_small/testPickle4")
-testP = load("../../pickles_small/testPickle4")
+testP = load("../../pickles_modified/trainPickle4")
 classes = ['Backhoe_JD50DCompact', 'Compactor_Ingersoll_Rand', 'Concrete_Mixer_0',
            'Excavator_CAT320E', 'Excavator_Hitachi50U']
 

@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+"""This code is a modification of https://github.com/AndMastro/WreckingNet and was provided to us by the authors"""
 
 import os
 import pickle

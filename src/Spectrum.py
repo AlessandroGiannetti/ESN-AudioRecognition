@@ -1,3 +1,7 @@
+"""This code is a modification of https://github.com/AndMastro/WreckingNet and was provided to us by the authors"""
+
+
+
 import numpy as np
 from scipy.io import wavfile
 import matplotlib.pyplot as plt
@@ -139,7 +143,6 @@ class Spectrum:
 
 
 # fft - fast fourier transform
-# =============================================================================
 def main():
     # generate spectograms from segments
 
@@ -202,4 +205,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-# =============================================================================
