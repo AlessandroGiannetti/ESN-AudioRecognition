@@ -35,6 +35,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="JupyterTrust" id="eaefd7f3-1fbc-4ab7-8f2a-f35f06287e2d" />
   <component name="ProjectId" id="1ZAl9S3Gn3RmJ74sUKQyHUVw45L" />
@@ -280,11 +281,11 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="546" y="309" key="#xdebugger.XInspectDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1589566065432" />
-    <state x="1136" y="130" key="CommitChangelistDialog2" timestamp="1589290974597">
+    <state x="1136" y="130" key="CommitChangelistDialog2" timestamp="1591634436973">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="1065" y="123" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1584289891925" />
-    <state x="1136" y="130" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1589290974597" />
+    <state x="1136" y="130" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1591634436973" />
     <state x="788" y="295" key="FileChooserDialogImpl" timestamp="1589290196563">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -340,9 +341,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="721" y="380" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1591633767968" />
-    <state x="1249" y="445" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584289860503">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="1332" y="471" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591634465096">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="1249" y="445" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1584289860503" />
+    <state x="1332" y="471" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2048.1112@0.0.2048.1112" timestamp="1591634465096" />
   </component>
 </project>
